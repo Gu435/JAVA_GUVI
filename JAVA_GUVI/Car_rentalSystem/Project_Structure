@@ -1,0 +1,29 @@
+car-rental-system/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── carrental/
+│   │   │   │   │   ├── controller/
+│   │   │   │   │   │   ├── CarController.java
+│   │   │   │   │   │   ├── CustomerController.java
+│   │   │   │   │   │   └── RentalController.java
+│   │   │   │   │   ├── dao/
+│   │   │   │   │   │   ├── CarDAO.java
+│   │   │   │   │   │   ├── CustomerDAO.java
+│   │   │   │   │   │   ├── RentalDAO.java
+│   │   │   │   │   │   └── DBConnection.java
+│   │   │   │   │   ├── model/
+│   │   │   │   │   │   ├── Car.java
+│   │   │   │   │   │   ├── Customer.java
+│   │   │   │   │   │   └── Rental.java
+│   │   │   │   │   ├── view/
+│   │   │   │   │   │   ├── CarView.java
+│   │   │   │   │   │   ├── CustomerView.java
+│   │   │   │   │   │   ├── MainView.java
+│   │   │   │   │   │   └── RentalView.java
+│   │   │   │   │   └── App.java
+│   │   ├── resources/
+│   │   │   └── database.properties
+├── lib/
+│   └── mysql-connector-java-8.0.23.jar
